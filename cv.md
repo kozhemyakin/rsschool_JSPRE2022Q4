@@ -1,6 +1,6 @@
 ## CV:
 
-![kozhemyakin sergey](https://media-exp1.licdn.com/dms/image/C4E03AQH7cLV1hRz-4A/profile-displayphoto-shrink_800_800/0/1516861617183?e=1668038400&v=beta&t=7_sDedQCJJRdA-D5Bb8Frw-g2pnhRG4yIkhi6mqVfVE "kozhemyakin sergey")
+![kozhemyakin sergey](https://avatars.githubusercontent.com/u/19146069?s=96&v=4 "kozhemyakin sergey")
 
 1. Kozhemyakin Sergey
 2. Discord - kozhemyakin, email - kozhemyakin.ahead@gmail.com
