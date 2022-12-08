@@ -212,3 +212,19 @@ h3 {
         text-align: center;
     }
 }
+
+.myClass {
+    background-color: gray;
+    color: white;
+    border: 1px solid #7f7e7d;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.myClass:hover {
+    background-color: #2a1e0a;
+    border: 1px solid #1b1650;
+}
