@@ -1,0 +1,81 @@
+ul, li, span, a {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #010201;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+header {
+    background-color: #EDF2EC;
+    height: 134px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #010201;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 42px 109px 42px 111px;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 50px;
+    gap: 46px;
+    align-items: center;
+}
+
+.nav-list > li:hover {
+    cursor: pointer;
+    color:#E06733
+}
+
+.welcome {
+    height: 532px;
+    background-color: #EDF2EC;
+}
+
+.about {
+    height: 666px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service {
+    height: 1300px;
+    background-color: #EDF2EC;
+}
+
+.prices {
+    height: 560px;
+    background-color: #FFFFFF; 
+}
+
+.contacts {
+    height: 550px;
+    background-color: #EDF2EC;
+}
+
+footer {
+    height: 130px;
+    background-color: #FFFFFF; 
+}
