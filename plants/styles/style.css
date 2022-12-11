@@ -248,3 +248,33 @@ footer {
     height: 130px;
     background-color: #FFFFFF; 
 }
+
+.footer-content {
+    padding: 40px 109px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.footer-content__left {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-content__right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-content__right > img {
+    width: 32px;
+    height: 32px;
+}
