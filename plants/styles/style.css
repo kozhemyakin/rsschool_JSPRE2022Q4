@@ -278,7 +278,7 @@ header {
     cursor: pointer;
 }
 
-.accordion-btn > img {
+.accordion-btn {
     padding: 12px 35px 17px 0px;
 }
 
