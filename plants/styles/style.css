@@ -1,4 +1,4 @@
-ul, li, span, a {
+ul, li, span, a, h3, h1 {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -7,6 +7,37 @@ ul, li, span, a {
 
 a:visited {
     color: #010201;
+}
+
+.btn {
+    width: 162px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    
+    cursor: pointer;
+}
+
+.learn-more {
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.btn:hover {
+    background: #E06733;
+    color: #FFFFFF;
 }
 
 .container {
@@ -22,7 +53,6 @@ header {
     font-weight: 400;
     font-size: 16px;
     color: #010201;
-
 }
 
 .nav-bar {
@@ -50,6 +80,48 @@ header {
 .welcome {
     height: 532px;
     background-color: #EDF2EC;
+    position: relative;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 62px 109px;
+}
+
+.welcome-right {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.welcome-content__title {
+    width: 549px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    padding: 36px 0px 42px 0px;
+}
+
+.welcome-content__title > span {
+    color: #499A18;
+}
+
+.welcome-content__description {
+    width: 525.44px;
+    height: 105px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    padding-bottom: 48px;
 }
 
 .about {
@@ -60,9 +132,106 @@ header {
     justify-content: space-between;
 }
 
+.about-text {
+    padding: 161px 0px 155px 109px;
+}
+
+.about-text > h2 {
+    width: 463px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.about-text > h2 > span {
+    color: #E06733;
+}
+
+.about-text > p {
+    width: 605px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+.about-image {
+    padding: 93px 109px 94px 0px;
+}
+
 .service {
     height: 1300px;
     background-color: #EDF2EC;
+}
+
+.service-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 142px;
+    padding: 40px 0px 0px 109px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.service-header__title {
+    width: 306px;
+}
+
+.service-header__filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 38px;
+    align-items: center;
+}
+
+.service-items {
+    display: flex;
+    flex-direction: row;
+    padding: 90px 109px 121px 109px;
+    column-gap: 113px;
+    row-gap: 55px;
+    flex-wrap: wrap;
+}
+
+.service-items__item {
+    text-align: center;
+}
+
+.service-items__item-bottom {
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -4px;
+    padding-bottom: 36px;
+}
+
+.service-items__item > div > h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    margin: 10px 0;
+}
+
+.service-items__item > div > span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
 }
 
 .prices {
