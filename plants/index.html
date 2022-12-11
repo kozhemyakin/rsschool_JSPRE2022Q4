@@ -20,18 +20,18 @@
             </a>
             <nav>
                 <ul class="nav-list">
-                    <li>Home</li>
-                    <li>About us</li>
-                    <li>Service</li>
-                    <li>Price</li>
-                    <li>Contacts</li>
+                    <li><a href="#welcome">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
         <section class="container welcome">
-            <div class="welcome-content">
+            <div id="welcome" class="welcome-content">
                 <div class="leafs">
                     <img src="./images/leafs.png" alt="leafs">
                 </div>
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </section>
-        <section class="container about">
+        <section id="about" class="container about">
             <div class="about-text">
                 <h2>We are <span>professional experienced</span> gardeners</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
@@ -51,7 +51,7 @@
                 <img src="./images/houseplant1.png" alt="plant1 img">
             </div>
         </section>
-        <section class="container service">
+        <section id="service" class="container service">
             <div class="service-header">
                 <div class="service-header__title">Service and our projects</div>
                 <div class="service-header__filters">
@@ -105,10 +105,20 @@
                 </div>
             </div>
         </section>
-        <section class="container prices">
+        <section id="price" class="container prices">
 
         </section>
-        <section class="container contacts">
+        <section id="contacts" class="container contacts">
+            <div class="contacts-woman">
+                <div><img src="./images/contact_woman_1.png"></div>
+            </div>
+            <h2 class="contacts-title">Contact us</h2>
+            <button class="dropbtn">
+                City
+                <div class="accordion-btn">
+                    <img src="./images/accordion_btn.png" alt="accordion">
+                </div>
+            </button>
 
         </section>
     </main>

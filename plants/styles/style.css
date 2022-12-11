@@ -1,11 +1,8 @@
-ul, li, span, a, h3, h1 {
+ul, li, span, a, h3, h1, h2, button {
     padding: 0;
     margin: 0;
     list-style: none;
     text-decoration: none;
-}
-
-a:visited {
     color: #010201;
 }
 
@@ -15,14 +12,12 @@ a:visited {
     border: 1px solid #E06733;
     border-radius: 5px;
     box-sizing: border-box;
-
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     color: #E06733;
-    
     cursor: pointer;
 }
 
@@ -93,9 +88,7 @@ header {
 .welcome-right {
     display: flex;
     flex-direction: column;
-
 }
-
 
 .welcome-content__title {
     width: 549px;
@@ -242,6 +235,51 @@ header {
 .contacts {
     height: 550px;
     background-color: #EDF2EC;
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts-woman {
+    width: 400px;
+    height: 497px;
+    padding: 53px 113px 0px 109px;
+}
+
+.contacts-title {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    padding: 60px 64px 439px 0px;
+}
+
+.dropbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    width: 450px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    margin: 148px 109px 352px 0px;
+    border: none;
+    background: #D6E7D2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    padding: 5px 0px 5px 20px;
+    cursor: pointer;
+}
+
+.accordion-btn > img {
+    padding: 12px 35px 17px 0px;
 }
 
 footer {
