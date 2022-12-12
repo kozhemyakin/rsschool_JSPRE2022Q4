@@ -67,7 +67,7 @@ header {
     align-items: center;
 }
 
-.nav-list > li:hover {
+.nav-list > li > a:hover {
     cursor: pointer;
     color:#E06733
 }
@@ -232,6 +232,100 @@ header {
     background-color: #FFFFFF; 
 }
 
+.prices-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 109px 115px 109px;
+}
+
+.prices-content h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.accordion {
+    box-sizing: border-box;
+    width: 332px;
+    height: 282px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prices-btn__item {
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.prices-btn__item > span {
+    padding-left: 40px;
+}
+
+.prices-btn__item > img {
+    padding-left: 80px;
+}
+
+.prices-content h2 {
+    width: 455px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+}
+
+.prices-content h2 > span {
+    color: #499A18;
+}
+
+.prices-btn {
+    background: none;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #E06733;
+    margin: 39px 0px 39px 290px;
+}
+
+.prices-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices-leafs {
+    width: 152px;
+    height: 175px;
+    margin-left: 290px;
+}
+
 .contacts {
     height: 550px;
     background-color: #EDF2EC;
@@ -278,7 +372,7 @@ header {
     cursor: pointer;
 }
 
-.accordion-btn {
+.dropdown-opener {
     padding: 12px 35px 17px 0px;
 }
 
