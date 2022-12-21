@@ -88,7 +88,7 @@ header {
 .welcome-right {
     display: flex;
     flex-direction: column;
-    /* padding-left: 224px; */
+    padding-bottom: 32px;
     width: 45%;
 }
 
@@ -165,11 +165,11 @@ header {
     background-image: url(../images/houseplant1.png);
     background-repeat: no-repeat;
     background-size: contain;
-
 }
 
 .service {
     background-color: #EDF2EC;
+    padding-bottom: 121px;
 }
 
 .service-header {
@@ -202,7 +202,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 113px;
+    grid-column-gap: 9%;
     grid-row-gap: 55px;
 }
 
@@ -211,42 +211,36 @@ header {
 }
 
 .service-items__item:nth-child(1) > .service-items__item__img {
-    width: 329px;
     height: 350px;
     background-size: cover;
     background-image: url(../images/first.png);
 }
 
 .service-items__item:nth-child(2) > .service-items__item__img {
-    width: 330px;
     height: 350px;
     background-size: cover;
     background-image: url(../images/second.png);
 }
 
 .service-items__item:nth-child(3) > .service-items__item__img {
-    width: 330px;
     height: 350px;
     background-size: cover;
     background-image: url(../images/third.png);
 }
 
 .service-items__item:nth-child(4) > .service-items__item__img {
-    width: 330px;
     height: 350px;
     background-size: cover;
     background-image: url(../images/four.png);
 }
 
 .service-items__item:nth-child(5) > .service-items__item__img {
-    width: 330px;
     height: 350px;
     background-size: cover;
     background-image: url(../images/five.png);
 }
 
 .service-items__item:nth-child(6) > .service-items__item__img {
-    width: 330px;
     height: 350px;
     background-size: cover;
     background-image: url(../images/six.png);
@@ -396,6 +390,7 @@ header {
     line-height: 52px;
     color: #499A18;
     padding: 60px 64px 439px 0px;
+    white-space: nowrap;
 }
 
 .dropbtn {
@@ -459,4 +454,3 @@ footer {
     width: 32px;
     height: 32px;
 }
-
