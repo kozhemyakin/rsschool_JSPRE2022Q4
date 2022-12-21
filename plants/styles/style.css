@@ -129,10 +129,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 93px 0px;
 }
 
 .about-text {
-    padding: 161px 0px 155px;
+    padding: 68px 0px 62px;
     width: 49%;
 }
 
@@ -160,7 +161,6 @@ header {
 }
 
 .about-image {
-    padding: 93px 109px 94px 0px;
     width: 38%;
     background-image: url(../images/houseplant1.png);
     background-repeat: no-repeat;
