@@ -455,6 +455,50 @@ footer {
     height: 32px;
 }
 
+@media screen and (max-width: 1020px) {
+    .price-title {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .accordion {
+        margin-top: 50px;
+    }
+
+    .prices-contacts {
+        width: 296px !important;
+        justify-content: end !important;
+        padding-top: 99px !important;
+    }
+
+    .price-description {
+        font-size: 25px !important; 
+        line-height: 35px !important;
+        width: fit-content !important;
+    }
+
+    .prices-content {
+        justify-content: space-between !important;
+        padding: 40px 0px 88px !important;
+        gap: 15px !important;
+    }
+
+    .prices-btn {
+        margin: 22px 0px 34px 134px !important;
+    }
+
+    .prices-leafs {
+        margin: 0px 0px 0px 145px !important;
+    }
+
+    .service-header {
+        font-size: 35px;
+        line-height: 46px;
+        gap: 40px;
+        padding: 60px 0 40px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
         max-width: 768px;
@@ -623,4 +667,8 @@ footer {
     .footer-content__right {
         align-self: center;
     }
-  }
+}
+
+@media screen and (max-width: 380px) {
+
+}
