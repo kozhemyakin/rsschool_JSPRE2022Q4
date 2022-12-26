@@ -6,8 +6,23 @@ ul, li, span, a, h3, h1, h2, button {
     color: #010201;
 }
 
-.mobile-nav-list {
+.mobile-hamburger, .opened-mobile-menu {
     display: none;
+}
+
+.activated {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    height: 100vh;
+    width: 100%;
+    background-color: #717171;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 32px;
+    line-height: 51px;
 }
 
 .btn {
@@ -944,7 +959,7 @@ footer {
         height: 124px !important;
     }
 
-    .mobile-nav-list {
+    .mobile-hamburger {
         display: block;
         cursor: pointer;
     }
