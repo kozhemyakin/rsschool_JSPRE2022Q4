@@ -14,21 +14,34 @@
   </head>
   <body>
     <header class="container">
-        <div class="nav-bar">
+        <nav>
             <a href="#">
                 <img src="./images/logo.png" alt="plants logo">
                 <span>Plants</span>
             </a>
-            <nav>
-                <ul class="nav-list">
+            <ul class="nav-list">
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#price">Price</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <div class="mobile-hamburger" onclick="openMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="opened-mobile-menu" onclick="closeMenu()">
+                <ul class="mobile-menu__items">
                     <li><a href="#welcome">Home</a></li>
                     <li><a href="#about">About us</a></li>
                     <li><a href="#service">Service</a></li>
                     <li><a href="#price">Price</a></li>
                     <li><a href="#contacts">Contacts</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="container welcome">
@@ -133,7 +146,7 @@
         </section>
         <section id="contacts" class="container contacts">
             <div class="contacts-woman">
-                <div><img src="./images/contact_woman_1.png" alt="woman"></div>
+                <img src="./images/contact_woman_1.png" alt="woman">
             </div>
             <h2 class="contacts-title">Contact us</h2>
             <button class="dropbtn">
@@ -153,10 +166,10 @@
                 Rolling Scopes School
             </div>
             <div class="footer-content__right">
-                <img src="./images/inst1.png" alt="instagram">
-                <img src="./images/fb1.png" alt="facebook">
-                <img src="./images/tw1.png" alt="twitter">
-                <img src="./images/pinterest1.png" alt="pinterest">
+                <img src="./images/inst1.svg" alt="instagram">
+                <img src="./images/fb1.svg" alt="facebook">
+                <img src="./images/tw1.svg" alt="twitter">
+                <img src="./images/pinterest1.svg" alt="pinterest">
             </div>
         </div>
     </footer>
