@@ -397,7 +397,7 @@ nav {
 
 .contacts-woman {
     width: 33%;
-    /* height: 497px; */
+    height: 497px;
     padding: 53px 4px 0px 0;
 }
 
@@ -729,7 +729,7 @@ footer {
         order: 3;
         padding: 250px 0 0;
         align-self: center;
-        /* height: 0 !important; */
+        height: 249px !important;
     }
 
     .contacts-woman > img {
@@ -952,6 +952,7 @@ footer {
 
     .contacts-woman {
         padding: 132px 0 0;
+        height: 124px !important;
     }
 
     .contacts-woman > img {
