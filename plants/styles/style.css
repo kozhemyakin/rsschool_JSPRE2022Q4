@@ -71,6 +71,11 @@ header {
 }
 
 nav {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
