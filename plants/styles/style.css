@@ -485,6 +485,11 @@ footer {
     height: 32px;
 }
 
+.footer-content a:hover {
+    cursor: pointer;
+    color:#E06733
+}
+
 @media screen and (max-width: 1243px) {
     .service-header {
         justify-content: start;
