@@ -203,16 +203,22 @@ nav {
     justify-content: start;
     gap: 142px;
     padding: 40px 0 90px;
+    font-family: 'Inika' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 40px !important;
+    line-height: 52px !important;
+    color: #499A18 !important;
+}
+
+.service-header__title {
+    width: 306px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
-}
-
-.service-header__title {
-    width: 306px;
 }
 
 .service-header__filters {
