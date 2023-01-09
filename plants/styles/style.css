@@ -56,6 +56,7 @@ html {
 .btn:hover {
     background: #E06733;
     color: #FFFFFF;
+    transition: 1s;
 }
 
 .container {
@@ -98,7 +99,8 @@ nav {
 
 .nav-list > li > a:hover {
     cursor: pointer;
-    color:#E06733
+    color:#E06733;
+    transition: 1s;
 }
 
 .welcome {
@@ -491,7 +493,8 @@ footer {
 
 .footer-content a:hover {
     cursor: pointer;
-    color:#E06733
+    color:#E06733;
+    transition: 1s;
 }
 
 @media screen and (max-width: 1243px) {
