@@ -6,6 +6,10 @@ ul, li, span, a, h3, h1, h2, button {
     color: #010201;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .mobile-hamburger, .opened-mobile-menu {
     display: none;
 }
