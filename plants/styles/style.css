@@ -6,6 +6,10 @@ ul, li, span, a, h3, h1, h2, button {
     color: #010201;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .mobile-hamburger, .opened-mobile-menu {
     display: none;
 }
@@ -15,14 +19,100 @@ ul, li, span, a, h3, h1, h2, button {
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 999;
+    z-index: 2;
     height: 100vh;
     width: 100%;
-    background-color: #717171;
+    background-color: #7a7a7a;
     text-align: center;
     padding-top: 50px;
     font-size: 32px;
     line-height: 51px;
+    animation: fadeInFromNone 0.5s ease;
+}
+
+.close-btn {
+    position: absolute;
+    top: 42px;
+    left: 300px;
+    font-size: 72px;
+    font-weight: normal;
+    color: #000;
+}
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+        top: -100%;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+        top: 0;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+        top: -100%;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+        top: 0;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+        top: -100%;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+        top: 0;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+        top: -100%;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+        top: 0;
+    }
 }
 
 .btn {
@@ -52,6 +142,7 @@ ul, li, span, a, h3, h1, h2, button {
 .btn:hover {
     background: #E06733;
     color: #FFFFFF;
+    transition: 1s;
 }
 
 .container {
@@ -71,6 +162,11 @@ header {
 }
 
 nav {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -89,7 +185,8 @@ nav {
 
 .nav-list > li > a:hover {
     cursor: pointer;
-    color:#E06733
+    color:#E06733;
+    transition: 1s;
 }
 
 .welcome {
@@ -198,16 +295,22 @@ nav {
     justify-content: start;
     gap: 142px;
     padding: 40px 0 90px;
+    font-family: 'Inika' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 40px !important;
+    line-height: 52px !important;
+    color: #499A18 !important;
+}
+
+.service-header__title {
+    width: 306px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
-}
-
-.service-header__title {
-    width: 306px;
 }
 
 .service-header__filters {
@@ -472,6 +575,12 @@ footer {
 .footer-content__right > img {
     width: 32px;
     height: 32px;
+}
+
+.footer-content a:hover {
+    cursor: pointer;
+    color:#E06733;
+    transition: 1s;
 }
 
 @media screen and (max-width: 1243px) {
@@ -781,6 +890,43 @@ footer {
     }
 }
 
+@media screen and (max-width: 636px) {
+    .container {
+        max-width: 560px;
+        padding: 0px 25px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .mobile-hamburger {
+        display: block;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .close-btn {
+        left: 400px;
+    }
+
+    .line {
+        width: 40px;
+        height: 2px;
+        background-color: #717171;
+    }
+
+    .line:nth-child(1) {
+        margin-bottom: 8px;
+    }
+    .line:nth-child(2) {
+        margin-bottom: 8px;
+    }
+    .line:nth-child(3) {
+        margin-bottom: 8px;
+    }
+}
+
 @media screen and (max-width: 560px) {
     .container {
         max-width: 560px;
@@ -794,6 +940,11 @@ footer {
     .mobile-hamburger {
         display: block;
         cursor: pointer;
+        transition: 1s;
+    }
+
+    .close-btn {
+        left: 350px;
     }
 
     .line {
@@ -1010,6 +1161,10 @@ footer {
     .mobile-hamburger {
         display: block;
         cursor: pointer;
+    }
+
+    .close-btn {
+        left: 300px;
     }
 
     .line {

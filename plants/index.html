@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
-
+    <link rel="icon" href="./images/favicon.ico">
     <link href="https://fonts.cdnfonts.com/css/inika" rel="stylesheet">
     <style>
         @import url('https://fonts.cdnfonts.com/css/inika');
@@ -34,7 +34,8 @@
             </div>
             <div class="opened-mobile-menu" onclick="closeMenu()">
                 <ul class="mobile-menu__items">
-                    <li><a href="#welcome">Home</a></li>
+                    
+                    <li><a href="#">Home<span class="close-btn">&times;</span></a></li>
                     <li><a href="#about">About us</a></li>
                     <li><a href="#service">Service</a></li>
                     <li><a href="#price">Price</a></li>
@@ -43,7 +44,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main onclick="closeMenu()">
         <section class="container welcome">
             <div id="welcome" class="welcome-content">
                 <div class="leafs"></div>
@@ -66,7 +67,7 @@
         </section>
         <section id="service" class="container service">
             <div class="service-header">
-                <div class="service-header__title">Service and our projects</div>
+                <h2 class="service-header__title">Service and our projects</h2>
                 <div class="service-header__filters">
                     <button class="btn">Gardens</button>
                     <button class="btn">Lawn</button>
@@ -160,16 +161,16 @@
             <div class="footer-content__left">
                 <span>©</span>
                 <span>2022</span>
-                <span>github</span>
+                <span><a href="https://github.com/kozhemyakin">github</a></span>
             </div>
             <div class="footer-content__center">
-                Rolling Scopes School
+                <a href="https://rs.school/js-stage0/">Rolling Scopes School</a>
             </div>
             <div class="footer-content__right">
-                <img src="./images/inst1.svg" alt="instagram">
-                <img src="./images/fb1.svg" alt="facebook">
-                <img src="./images/tw1.svg" alt="twitter">
-                <img src="./images/pinterest1.svg" alt="pinterest">
+                <a href="https://rs.school/js-stage0/"><img src="./images/inst1.svg" alt="instagram"></a>
+                <a href="https://rs.school/js-stage0/"><img src="./images/fb1.svg" alt="facebook"></a>
+                <a href="https://rs.school/js-stage0/"><img src="./images/tw1.svg" alt="twitter"></a>
+                <a href="https://rs.school/js-stage0/"><img src="./images/pinterest1.svg" alt="pinterest"></a>
             </div>
         </div>
     </footer>
