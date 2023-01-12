@@ -1367,3 +1367,9 @@ footer {
         height: 124px !important;
     }
 }
+
+@media screen and (max-width: 321px) {
+    .close-btn {
+        left: 265px;
+    }
+}
