@@ -14,6 +14,11 @@ html {
     display: none;
 }
 
+.active {
+    background: #E06733;
+    color: #FFFFFF !important;
+}
+
 .activated {
     display: block;
     position: absolute;
@@ -337,6 +342,16 @@ nav {
     height: 350px;
     background-size: 100% 350px;
     background-image: url(../images/first.png);
+}
+
+.unblured {
+    filter: blur(0px);
+    transition: 1.5s;
+}
+
+.blured {
+    filter: blur(5px);
+    transition: 1.5s;
 }
 
 .service-items__item:nth-child(2) > .service-items__item__img {
