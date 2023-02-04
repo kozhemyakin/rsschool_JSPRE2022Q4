@@ -124,17 +124,41 @@
                 <div>
                     <h1 class="price-title">Prices</h1>
                     <div class="accordion">
-                        <button class="prices-btn__item">
+                        <button class="prices-btn__item basic" onclick="accordeonBasic()">
                             <span>Basic&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                             <img src="./images/accordion_btn_prices.png" alt="opener">
                         </button>
-                        <button class="prices-btn__item">
+                        <button class="basic--opened" onclick="accordeonCloseBasic()">
+                            <span class="basic--opened__title">Basic&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <img src="./images/accordion_btn_prices.png" class="basic--opened__dropup" alt="opener">
+                            <div class="accordion-line"></div>
+                            <p class="basic--opened__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                            <p class="basic--opened__price"><span><span class="dollar">$</span><span>25</span></span> / per hour</p>
+                            <div class="basic--opened__button"><a href="#contacts">Order</a></div>
+                        </button>
+                        <button class="prices-btn__item standard" onclick="accordeonStandard()">
                             <span>Standard</span>
                             <img src="./images/accordion_btn_prices.png" alt="opener">
                         </button>
-                        <button class="prices-btn__item">
+                        <button class="standard--opened" onclick="accordeonCloseStandard()">
+                            <span class="basic--opened__title standard--opened__title">Standard&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <img src="./images/accordion_btn_prices.png" class="basic--opened__dropup" alt="opener">
+                            <div class="accordion-line"></div>
+                            <p class="basic--opened__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                            <p class="basic--opened__price"><span><span class="dollar">$</span><span>25</span></span> / per hour</p>
+                            <div class="basic--opened__button"><a href="#contacts">Order</a></div>
+                        </button>
+                        <button class="prices-btn__item pro-care" onclick="accordeonProCare()">
                             <span>Pro care&nbsp;&nbsp;</span>
                             <img src="./images/accordion_btn_prices.png" alt="opener">
+                        </button>
+                        <button class="pro-care--opened" onclick="accordeonCloseProCare()">
+                            <span class="basic--opened__title pro-care--opened__title">Pro care&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <img src="./images/accordion_btn_prices.png" class="basic--opened__dropup" alt="opener">
+                            <div class="accordion-line"></div>
+                            <p class="basic--opened__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                            <p class="basic--opened__price"><span><span class="dollar">$</span><span>25</span></span> / per hour</p>
+                            <div class="basic--opened__button"><a href="#contacts">Order</a></div>
                         </button>
                     </div>
                 </div>
