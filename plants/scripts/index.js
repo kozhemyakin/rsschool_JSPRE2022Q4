@@ -88,3 +88,65 @@ function bluring() {
         document.querySelector('.service-items__item:nth-child(6) > .service-items__item__img').classList.remove('blured')
     }
 }
+
+/* ACCORDION */
+
+function accordeonBasic() {
+    document.querySelector('.accordion > button:nth-child(3)').style.display = 'flex';
+    document.querySelector('.standard--opened').style.display = 'none';
+    document.querySelector('.accordion > button:nth-child(5)').style.display = 'flex';
+    document.querySelector('.pro-care--opened').style.display = 'none';
+
+    document.querySelector('.accordion > button:nth-child(1)').style.display = 'none';
+    document.querySelector('.basic--opened').style.display = 'block';
+    document.querySelector('.basic--opened > img').src = 'https://i.yapx.ru/VdMz7.png';
+}
+// transform: rotate(180deg);
+function accordeonCloseBasic() {
+    if (event.target.innerText === 'Order') {
+        return
+    }
+
+    document.querySelector('.accordion > button:nth-child(1)').style.display = 'flex';
+    document.querySelector('.basic--opened').style.display = 'none';
+}
+
+function accordeonStandard() {
+    document.querySelector('.accordion > button:nth-child(1)').style.display = 'flex';
+    document.querySelector('.basic--opened').style.display = 'none';
+    document.querySelector('.accordion > button:nth-child(5)').style.display = 'flex';
+    document.querySelector('.pro-care--opened').style.display = 'none';
+
+    document.querySelector('.accordion > button:nth-child(3)').style.display = 'none';
+    document.querySelector('.standard--opened').style.display = 'block';
+    document.querySelector('.standard--opened > img').src = 'https://i.yapx.ru/VdMz7.png';
+}
+
+function accordeonCloseStandard() {
+    if (event.target.innerText === 'Order') {
+        return
+    }
+
+    document.querySelector('.accordion > button:nth-child(3)').style.display = 'flex';
+    document.querySelector('.standard--opened').style.display = 'none';
+}
+
+function accordeonProCare() {
+    document.querySelector('.accordion > button:nth-child(1)').style.display = 'flex';
+    document.querySelector('.basic--opened').style.display = 'none';
+    document.querySelector('.accordion > button:nth-child(3)').style.display = 'flex';
+    document.querySelector('.standard--opened').style.display = 'none';
+
+    document.querySelector('.accordion > button:nth-child(5)').style.display = 'none';
+    document.querySelector('.pro-care--opened').style.display = 'block';
+    document.querySelector('.pro-care--opened > img').src = 'https://i.yapx.ru/VdMz7.png';
+}
+
+function accordeonCloseProCare() {
+    if (event.target.innerText === 'Order') {
+        return
+    }
+
+    document.querySelector('.accordion > button:nth-child(5)').style.display = 'flex';
+    document.querySelector('.pro-care--opened').style.display = 'none';
+}
