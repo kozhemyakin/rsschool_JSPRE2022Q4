@@ -174,10 +174,35 @@
                 <img src="./images/contact_woman_1.png" alt="woman">
             </div>
             <h2 class="contacts-title">Contact us</h2>
-            <button class="dropbtn">
-                City
-                <img class="dropdown-opener" src="./images/accordion_btn.png" alt="accordion">
-            </button>
+            <div class="select-dropdown dropbtn">
+                <div class="select-dropdown__title">
+                    <span>City</span>
+                    <img class="dropdown-opener" src="./images/accordion_btn.png" alt="accordion">
+                </div>
+                <div class="select-dropdown-list">
+                    <div class="select-dropdown-list__item" onclick="showCityCard()">Canandaigua, NY</div>
+                    <div class="select-dropdown-list__item" onclick="showCityCard()">New York City</div>
+                    <div class="select-dropdown-list__item" onclick="showCityCard()">Yonkers, NY</div>
+                    <div class="select-dropdown-list__item" onclick="showCityCard()">Sherrill, NY</div>
+                </div>
+            <div class="city-card">
+                <div class="city-card__wrapper">
+                    <div>
+                        <span class="city-card__option">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span class="city-card__option-answer">Canandaigua, NY</span>
+                    </div>
+                    <div>
+                        <span class="city-card__option">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span class="city-card__option-answer">+1 585 393 0001</span>
+                    </div>
+                    <div>
+                        <span class="city-card__option">Office adress:&nbsp;</span>
+                        <span class="city-card__option-answer">151 Charlotte Street</span>
+                    </div>
+                    <button class="call-us-btn" onclick="callUs()">Call us</button>
+                </div>
+            </div>
+            </div>
         </section>
     </main>
     <footer class="container">

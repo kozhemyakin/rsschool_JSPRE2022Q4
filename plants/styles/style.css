@@ -610,7 +610,7 @@ nav {
 .contacts-woman {
     width: 33%;
     height: 497px;
-    padding: 53px 4px 0px 0;
+    padding: 62px 4px 0px 0;
 }
 
 .contacts-title {
@@ -626,7 +626,7 @@ nav {
 
 .dropbtn {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     height: 50px;
     width: 450px;
@@ -648,7 +648,16 @@ nav {
 }
 
 .dropdown-opener {
-    padding: 12px 35px 17px 0px;
+    padding: 15px 35px 17px 0px;
+}
+
+.select_list {
+    visibility: hidden;
+}
+
+.select-container:hover, .select_list:focus-visible {
+    visibility: visible;
+
 }
 
 footer {
@@ -1481,4 +1490,134 @@ footer {
     .close-btn {
         left: 265px;
     }
+}
+
+.select-dropdown:hover .select-dropdown-list__item {
+    display: flex;
+    justify-content: start;
+    height: 50px;
+    /* width: 430px; */
+    justify-content: start;
+    margin-left: -20px;
+    padding-left: 35px;
+    padding-top: 12px;
+    background: #D6E7D2;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.select-dropdown-list__item:hover {
+    color: #717171;
+}
+
+.select-dropdown:hover {
+    background: #C1E698;
+    box-shadow: none;
+}
+
+.select-dropdown-list__item {
+    display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #499A18;
+}
+
+.select-dropdown-list {
+    margin-top: 7px;
+}
+
+.select-dropdown__title {
+    display: flex;
+    flex-direction: row;
+    gap: 76%;
+    padding-left: 15px;
+}
+
+.select-dropdown__title > span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    padding-top: 3px;
+}
+
+.select-dropdown-list__item:hover::after {
+    border: 1px solid #717171;
+}
+
+.select-dropdown-list__item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50px;
+    border: 1px solid #D9D9D9;
+    width: 84%;
+    height: 0px;
+    z-index: 5;
+}
+
+.city-card {
+    width: 450px;
+    height: 214px;
+    background: #EDF2EC;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    display: none;
+    margin-top: 47px;
+}
+
+.city-card__option {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+/* or 250% */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+min-width: 137px;
+}
+
+.city-card__option-answer {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+/* identical to box height, or 250% */
+
+letter-spacing: 0.05em;
+
+color: #717171;
+}
+
+.city-card__wrapper {
+    padding: 17px 0 32px 33px;
+}
+
+.call-us-btn {
+    width: 122px;
+    height: 26px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #717171;
+    margin-top: 24px;
+    margin-left: 125px;
+    cursor: pointer;
 }
