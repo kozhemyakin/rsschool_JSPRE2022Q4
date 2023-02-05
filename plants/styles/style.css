@@ -1509,15 +1509,6 @@ footer {
     z-index: 66;
 }
 
-.select-dropdown-list__item:hover {
-    color: #717171;
-}
-
-.select-dropdown:hover {
-    background: #C1E698;
-    box-shadow: none;
-}
-
 .select-dropdown-list__item {
     display: none;
     font-family: 'Inter';
@@ -1527,6 +1518,15 @@ footer {
     line-height: 40px;
     letter-spacing: 0.05em;
     color: #499A18;
+}
+
+.select-dropdown-list__item:hover {
+    color: #717171;
+}
+
+.select-dropdown:hover {
+    background: #C1E698;
+    box-shadow: none;
 }
 
 .select-dropdown-list {
@@ -1580,29 +1580,23 @@ footer {
 
 .city-card__option {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 40px;
-/* or 250% */
-
-letter-spacing: 0.05em;
-
-color: #000000;
-min-width: 137px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    min-width: 137px;
 }
 
 .city-card__option-answer {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 40px;
-/* identical to box height, or 250% */
-
-letter-spacing: 0.05em;
-
-color: #717171;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
 }
 
 .city-card__wrapper {
