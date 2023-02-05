@@ -150,3 +150,43 @@ function accordeonCloseProCare() {
     document.querySelector('.accordion > button:nth-child(5)').style.display = 'flex';
     document.querySelector('.pro-care--opened').style.display = 'none';
 }
+
+function showCityCard() {
+    if (event.target.innerText === 'Canandaigua, NY') {
+        document.querySelector('.city-card').style.display = 'block';
+        document.querySelector('.select-dropdown-list').style.display = 'none';
+        return
+    }
+
+    if (event.target.innerText === 'New York City') {
+        document.querySelector('.city-card').style.display = 'block';
+        document.querySelector('.select-dropdown-list').style.display = 'none';
+        document.querySelector('.city-card__wrapper > div:nth-child(1) > .city-card__option-answer').innerText = 'New York City';
+        document.querySelector('.city-card__wrapper > div:nth-child(2) > .city-card__option-answer').innerText = '+1 212 456 0002';
+        document.querySelector('.city-card__wrapper > div:nth-child(3) > .city-card__option-answer').innerText = '9 East 91st Street';
+        return
+    }
+
+    if (event.target.innerText === 'Yonkers, NY') {
+        document.querySelector('.city-card').style.display = 'block';
+        document.querySelector('.select-dropdown-list').style.display = 'none';
+        document.querySelector('.city-card__wrapper > div:nth-child(1) > .city-card__option-answer').innerText = 'Yonkers, NY';
+        document.querySelector('.city-card__wrapper > div:nth-child(2) > .city-card__option-answer').innerText = '+1 914 678 0003';
+        document.querySelector('.city-card__wrapper > div:nth-child(3) > .city-card__option-answer').innerText = '511 Warburton Ave';
+        return
+    }
+
+    if (event.target.innerText === 'Sherrill, NY') {
+        document.querySelector('.city-card').style.display = 'block';
+        document.querySelector('.select-dropdown-list').style.display = 'none';
+        document.querySelector('.city-card__wrapper > div:nth-child(1) > .city-card__option-answer').innerText = 'Sherrill, NY';
+        document.querySelector('.city-card__wrapper > div:nth-child(2) > .city-card__option-answer').innerText = '+1 315 908 0004';
+        document.querySelector('.city-card__wrapper > div:nth-child(3) > .city-card__option-answer').innerText = '14 WEST Noyes BLVD';
+        return
+    }
+}
+
+function callUs () {
+    let phoneNumber = document.querySelector('.city-card__wrapper > div:nth-child(2) > .city-card__option-answer').innerText;
+    window.open(`tel: ${phoneNumber}`)
+}
