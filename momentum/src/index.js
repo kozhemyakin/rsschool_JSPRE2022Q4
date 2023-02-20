@@ -82,40 +82,42 @@ const getRandomNum = (max) => {
 const setBg = (daytime, number) => {
     const img = new Image();
     img.src = `https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${daytime}/${number}.jpg`;
+    
+    
     img.onload = () => {      
         document.body.style.backgroundImage = `url(${img.src})`
-    }
+    }; 
 }
 
 setBg(getTimeOfDay(), getRandomNum(20))
 
 /* SLIDER */
 function getSlidePrev () {
-    // randomNum = Number(randomNum) - 1;
+    randomNum = Number(randomNum) - 1;
 
-    // if (randomNum === 0) {
-    //     randomNum = 20;
-    // }   else if (randomNum < 10) {
-    //     randomNum = '0' + randomNum;
-    // }
+    if (randomNum === 0) {
+        randomNum = 20;
+    }   else if (randomNum < 10) {
+        randomNum = '0' + randomNum;
+    }
 
-    // setBg(getTimeOfDay(), randomNum)
+    setBg(getTimeOfDay(), randomNum)
 
-    getLinkToImage(getTimeOfDay());
+    // getLinkToImage(getTimeOfDay());
 }
 
 function getSlideNext () {
-    // randomNum = Number(randomNum) + 1;
+    randomNum = Number(randomNum) + 1;
 
-    // if (randomNum === 21) {
-    //     randomNum = '01';
-    // }   else if (randomNum < 10) {
-    //     randomNum = '0' + randomNum;
-    // }
+    if (randomNum === 21) {
+        randomNum = '01';
+    }   else if (randomNum < 10) {
+        randomNum = '0' + randomNum;
+    }
 
-    // setBg(getTimeOfDay(), randomNum)
+    setBg(getTimeOfDay(), randomNum)
 
-    getLinkToImage(getTimeOfDay());
+    // getLinkToImage(getTimeOfDay());
 }
 
 const prevButton = document.querySelector('.slide-prev').addEventListener('click', getSlidePrev);
