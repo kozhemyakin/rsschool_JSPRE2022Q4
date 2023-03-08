@@ -25,6 +25,6 @@ function getCount(str) {
 }
 ```
 
-5. My diploma project(TMS react 2022) on React: https://github.com/kozhemyakin/tms-diploma
-6. At 2013 I graduated from QA courses at EPAM. At 2022 I graduated from Frontend Developer(React) courses at teachmeskills. At 2023 i have finished RSS-JS/PreQ42022 course.
+6. My diploma project(TMS react 2022) on React: https://github.com/kozhemyakin/tms-diploma
+7. At 2013 I graduated from QA courses at EPAM. At 2022 I graduated from Frontend Developer(React) courses at teachmeskills. At 2023 i have finished RSS-JS/PreQ42022 course.
 8. English level - B1
