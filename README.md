@@ -1,7 +1,7 @@
 # rsschool_JSPRE2022Q4
 
-'CV' task: https://kozhemyakin.github.io/rsschool_JSPRE2022Q4/
+CV task: https://kozhemyakin.github.io/rsschool_JSPRE2022Q4/
 
-'Plants' task: https://kozhemyakin.github.io/rsschool_JSPRE2022Q4/plants/
+Plants task: https://kozhemyakin.github.io/rsschool_JSPRE2022Q4/plants/
 
-'Momentum' task: https://kozhemyakin.github.io/rsschool_JSPRE2022Q4/momentum/
+Momentum task: https://kozhemyakin.github.io/rsschool_JSPRE2022Q4/momentum/
