@@ -1,4 +1,4 @@
-# rsschool-cv
+# rsschool_JSPRE2022Q4
 
 'CV' task: https://kozhemyakin.github.io/rsschool_JSPRE2022Q4/
 
